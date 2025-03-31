@@ -5,3 +5,5 @@ st.title("Test")
 st.write("More stuff added")
 
 upload_file = st.file_uploader("Choose file")
+
+st.write(upload_file)
